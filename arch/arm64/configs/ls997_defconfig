@@ -1,0 +1,32 @@
+include common
+
+#
+# Networking options
+#
+CONFIG_DEFAULT_BIC=y
+CONFIG_DEFAULT_TCP_CONG="bic"
+
+#
+# IPv6: Netfilter Configuration
+#
+CONFIG_IP6_NF_NAT=y
+
+#
+# USB GPIO expanders:
+#
+CONFIG_LGE_PM_OTP_SCENARIO_FOR_SPRINT=y
+
+#
+# USB Peripheral Controller
+#
+CONFIG_LGE_USB_DIAG_LOCK_SPR=y
+
+#
+# LGE Board Selection
+#
+CONFIG_MACH_MSM8996_ELSA_SPR_US=y
+
+#
+# LGE QFPROM Values
+#
+CONFIG_MEM_SHARE_QMI_SERVICE=y
