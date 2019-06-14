@@ -1,0 +1,3 @@
+include us996_defconfig
+
+LGE_DIRTY_ABOOT_FIXUP=y
